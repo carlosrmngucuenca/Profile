@@ -27,7 +27,7 @@ body {
   width: 100%;
   height: 587px;
   background: linear-gradient(172deg, #262626, transparent),
-    url(./assets/images/fondo.jpg);
+    url(https://assetspaqha.blob.core.windows.net/assets/fondo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
