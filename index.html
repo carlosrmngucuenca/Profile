@@ -12,32 +12,29 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;700&family=Roboto+Serif:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width:600px)" />
   </head>
   <body>
-    <section class="info-detail">
-      <header class="header">
-        <div class="header__left">
-          <img
-            class="header__logo"
-            src="https://assetspaqha.blob.core.windows.net/assets/logo_paqha.svg"
-            alt=""
-          />
+    <header>
+      <nav class="header__nav">
+        <img
+          class="nav__logo"
+          src="https://assetspaqha.blob.core.windows.net/assets/logo_paqha.svg"
+          alt=""
+        />
+        <div class="nav__list">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#proyecto">PROYECTO</a></li>
+            <li><a href="#">SOBRE NOSOTROS</a></li>
+            <li><a href="#GALERIA">GALERIA</a></li>
+            <li><a href="#">CONTACTOS</a></li>
+          </ul>
         </div>
-        <div class="header__right">
-          <nav>
-            <ul>
-              <li><a href="#">HOME</a></li>
-              <li><a href="#proyecto">PROYECTO</a></li>
-              <li><a href="#">SOBRE NOSOTROS</a></li>
-              <li><a href="#GALERIA">GALERIA</a></li>
-              <li><a href="#">CONTACTOS</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <section class="info">
-        <h2 class="info__subtitle">SALUD Y CONFIANZA</h2>
-        <p class="info__message">
+      </nav>
+      <section class="header__info">
+        <h2 class="info__title">SALUD Y CONFIANZA</h2>
+        <p class="info__body">
           Creando relaciones comerciales justas para un desarrollo alimentario
           sostenible de las ciudades.
         </p>
@@ -48,7 +45,7 @@
           >Acerca de nosotros <span></span
         ></a>
       </section>
-    </section>
+    </header>
     <main>
       <section id="proyecto" class="main__info">
         <div class="main__info-container">
@@ -62,15 +59,48 @@
             directamente a los productores con los compradores y promueve un
             comercio más justo e inclusivo.
           </p>
-          <p></p>
+          <p>Productores</p>
         </div>
-        <img
-          src="https://assetspaqha.blob.core.windows.net/assets/Productos-agricolas.png"
-          class="info-container__logo"
-        />
+        <picture class="main__info-container-logo">
+          <img
+            src="https://assetspaqha.blob.core.windows.net/assets/Productos-agricolas.png"
+            alt="imagen de productos agricolas"
+          />
+        </picture>
+      </section>
+      <section class="main__products">
+        <h2 class="product__title">SERVICIOS</h2>
+        <div class="products__grid">
+          <img
+            src="https://assetspaqha.blob.core.windows.net/assets/Productos-agricolas.png"
+            alt=""
+            class="product-item produc-big--mod"
+          />
+          <img
+            src="https://assetspaqha.blob.core.windows.net/assets/Productos-agricolas.png"
+            alt=""
+            class="product-item"
+          />
+          <img
+            src="https://assetspaqha.blob.core.windows.net/assets/Productos-agricolas.png"
+            alt=""
+            class="product-item"
+          />
+          <img
+            src="https://assetspaqha.blob.core.windows.net/assets/Productos-agricolas.png"
+            alt=""
+            class="product-item"
+          />
+          <img
+            src="https://assetspaqha.blob.core.windows.net/assets/Productos-agricolas.png"
+            alt=""
+            class="product-item"
+          />
+        </div>
       </section>
       <section class="about">
         <div class="about-container">
+          <h2 class="about-container__subtitle">BENEFICIOS</h2>
           <div class="about-container__info">
             <div class="card card-one">
               <img
@@ -119,12 +149,13 @@
             directamente a los productores con los compradores y promueve un
             comercio más justo e inclusivo.
           </p>
-          <p></p>
+          <p>PAQHA</p>
         </div>
-        <img
-          src="https://assetspaqha.blob.core.windows.net/assets/Productos-agricolas.png"
-          class="info-container__logo"
-        />
+        <picture class="main__info-container__logo">
+          <img
+            src="https://assetspaqha.blob.core.windows.net/assets/Productos-agricolas.png"
+          />
+        </picture>
       </section>
       <footer>
         <section class="footer-left">
